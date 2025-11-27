@@ -27,16 +27,16 @@ Types of plays are:
 - Triple
     - 4D 4C 4H < 7S 7D 7H (4 < 7)
     - Suits do not need to be checked since there are only 4 cards of each type
-- Quadruple
+- Quadruple or quad
     - 4S 4D 4C 4H < 7S 7D 7C 7H (4 < 7)
     - Again, suits do not need to be checked since there are only 4 cards of each type
-- Two consecutive pairs
+- Two consecutive pairs or two-pair
     - 5S 5D 6D 6C < JD JH QS QD (5 < J)
     - 8S 8D 9S 9C < 8C 8H 9D 9H (looking at 9's, C < H)
-- Sequence of 3+
+- Sequence or straight of 3+
+    - Cards with consecutive values up to and including ace (i.e. KC AH **2D** is invalid).
     - Different lengths are distinct types (i.e. cannot play sequence of 4 after sequence of 3)
     - Same suit > different suit, but they are still considered the same type if they have the same length
-    - The highest card allowed to be in a sequence is the ace (i.e. KC AH **2D** is invalid)
     - 3H 4C 5H < 5S 6C 7D (3 < 5)
     - 9D 10C JD QD < 9H 10D JC QS (looking at Q's, C < H)
     - 8S 9C 10H < 8D 9D 10D (different < same suit)
