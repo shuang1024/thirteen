@@ -39,7 +39,7 @@ class Play:
     def get_cards(self) -> list[Card]:
         return self._cards
 
-    def compare(self, play: Play) -> int:
+    def compare(self, play: "Play") -> int:
         if type(play) == EmptyPlay:
             return 1
         if self._value // 10000 != play.get_value() // 10000:

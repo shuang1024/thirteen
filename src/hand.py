@@ -7,8 +7,8 @@ class Hand:
     def __init__(self, hand: list[Card]):
         self.__hand = hand
 
-    def play(self, str_cards: str) -> Play:
-        str_cards = str_cards.split(" ")
+    def play(self, string: str) -> Play:
+        str_cards = string.split(" ")
         cards = []
         for str_card in str_cards:
             card = Card(str_card[:-1], str_card[-1])
