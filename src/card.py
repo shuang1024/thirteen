@@ -15,16 +15,16 @@ class Card:
     def get_value(self) -> str:
         return self.__value
 
-    def get_int_value(self) -> str:
+    def get_int_value(self) -> int:
         return VALUES.index(self.__value)
 
     def get_suit(self) -> str:
         return self.__suit
 
-    def get_int_suit(self) -> str:
+    def get_int_suit(self) -> int:
         return SUITS.index(self.__suit)
 
-    def compare(self, card: Card) -> int:
+    def compare(self, card: "Card") -> int:
         if type(self) != type(card):
             raise InvalidPlayError("Cannot compare different play types")
         if card.get_value() != self.__value:
